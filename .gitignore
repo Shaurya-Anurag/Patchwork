@@ -1,0 +1,59 @@
+# Secrets — never commit credentials
+
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+
+.venv/
+**/.venv/
+venv/
+**pycache**/
+**/**pycache**/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend
+
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Local databases and generated data
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and temporary files
+
+*.log
+*.tmp
+
+# Editor and OS files
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python packaging artifacts
+**/*.egg-info/
+
+# Python test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Frontend dependencies and build output
+Frontend/node_modules/
+Frontend/dist/
